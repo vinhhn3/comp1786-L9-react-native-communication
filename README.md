@@ -2,7 +2,7 @@
 
 ## Handle GET Request
 
-In this session, we will cover how to handle a GET request using a button and display a list of items using the `map()` function and a child component. We will use the `axios` to make the HTTP request to the JSONPlaceholder API.
+In this session, we will cover how to handle a `GET` request using a button and display a list of items using the `map()` function and a child component. We will use the `axios` to make the HTTP request to the `JSONPlaceholder API`.
 
 ![Alt text](image-1.png)
 
@@ -198,6 +198,10 @@ const App = () => {
 // ...styles remain the same
 ```
 
-You should now see two buttons: "Fetch Data" and "Create New Item." Pressing the "Fetch Data" button will fetch the existing data from the JSONPlaceholder API and display it in the list. Pressing the "Create New Item" button will send a POST request to the API, and the new item will be added to the list without the need to refresh the whole list.
+You should now see two buttons: `Fetch Data` and `Create New Item`.
+
+Pressing the `Fetch Data` button will fetch the existing data from the JSONPlaceholder API and display it in the list.
+
+Pressing the `Create New Item` button will send a `POST` request to the API, and the new item will be added to the list without the need to refresh the whole list.
 
 ![Alt text](image-3.png)
